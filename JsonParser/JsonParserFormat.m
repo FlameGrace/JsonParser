@@ -51,7 +51,7 @@
         format.checkType = checkType.integerValue;
     }
     JsonParserValueProcess *valueProcess = formatDic[JsonParserFormat_ValueProcess];
-    if([valueProcess conformsToProtocol:@protocol(JsonParserValueProcessProtocol)])
+    if(valueProcess&&[valueProcess conformsToProtocol:@protocol(JsonParserValueProcessProtocol)])
     {
         format.valueProcess = valueProcess;
     }
