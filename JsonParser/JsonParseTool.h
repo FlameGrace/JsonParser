@@ -45,7 +45,7 @@
 /**
  检验字典中是否有特定键key
  @param key 特定键名
-  @param dic
+  @param dic 检验字典
  @return 检查结果
  */
 + (BOOL)hasKey:(NSString *)key inDic:(NSDictionary *)dic;

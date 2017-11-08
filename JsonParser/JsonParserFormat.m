@@ -26,6 +26,7 @@
     return [[self alloc]init];
 }
 
+
 + (JsonParserFormat *)formatFromFormatDic:(NSDictionary *)formatDic
 {
     formatDic = [JsonParseTool dicForJson:formatDic];
@@ -84,7 +85,7 @@
 
 
 
-+ (instancetype)formatWithKey:(NSString *)key modelKeyPath:(NSString *)modelKeyPath valueProcess:(Class <JsonParserValueProcessProtocol>)valueProcess
++ (instancetype)formatWithKey:(NSString *)key modelKeyPath:(NSString *)modelKeyPath valueType:(Class <JsonParserValueProcessProtocol>)valueProcess
 {
     JsonParserFormat *format = [self formatWithKey:key modelKeyPath:modelKeyPath];
     format.valueProcess = valueProcess;
@@ -128,7 +129,7 @@
 {
     id value;
     NSError *error = [self parseDic:dic getValue:&value];
-    if(!error && value && model && self.modelKeyPath && ![self.modelKeyPath isEqualToString:@""])
+    if(!error && value && model && self.modelKeyPath && ![self.modelKeyPath isEqualToString:JsonParserFormat_NotSaveModelKeyPath])
     {
         [model setValue:value forKeyPath:self.modelKeyPath];
     }

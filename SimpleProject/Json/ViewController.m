@@ -2,7 +2,7 @@
 //  ViewController.m
 //  Json
 //
-//  Created by 李嘉军 on 2017/8/17.
+//  Created by Flame Grace on 2017/8/17.
 //  Copyright © 2017年 flamegrace@hotmail.com. All rights reserved.
 //
 
@@ -30,7 +30,7 @@
                           };
     NSData *data = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:nil];
     JsonParserDemoModel *model = [JsonParserDemoModel modelByData:data];
-    
+    NSLog(@"宠物：%@",model.pets);
     
 }
 

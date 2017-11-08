@@ -13,11 +13,12 @@
 
 #define  JsonParserFormat_ErrorDomin (@"com.flamegrace@hotmail.com.JsonParserFormat")
 
-#define JsonParserFormat_Key (@"key")
-#define JsonParserFormat_ModelKeyPath (@"modelKeyPath")
-#define JsonParserFormat_CheckType (@"checkType")
-#define JsonParserFormat_ValueProcess (@"valueProcess")
-#define JsonParserFormat_Dic (@"dic")
+#define JsonParserFormat_Key (@"JsonParserFormat_Key")
+#define JsonParserFormat_ModelKeyPath (@"JsonParserFormat_ModelKeyPath")
+#define JsonParserFormat_CheckType (@"JsonParserFormat_CheckType")
+#define JsonParserFormat_ValueProcess (@"JsonParserFormat_ValueProcess")
+#define JsonParserFormat_Dic (@"JsonParserFormat_Dic")
+#define JsonParserFormat_NotSaveModelKeyPath (@"JsonParserFormat_NotSaveModelKeyPath") //如果不需要将value复制给keyPath,可以将modelKeyPath设置为此
 
 typedef NS_ENUM(NSInteger, JsonParserCheckType){
     JsonParserCheckNothing = 0, //

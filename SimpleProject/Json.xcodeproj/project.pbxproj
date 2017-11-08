@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8630E59D1F556D5C00C15467 /* JsonParserDemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E59C1F556D5C00C15467 /* JsonParserDemoModel.m */; };
-		8630E5B91F55737E00C15467 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E5A11F55737E00C15467 /* JsonParser.m */; };
-		8630E5BA1F55737E00C15467 /* JsonParserFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E5A31F55737E00C15467 /* JsonParserFormat.m */; };
-		8630E5BB1F55737E00C15467 /* JsonParseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E5A51F55737E00C15467 /* JsonParseTool.m */; };
-		8630E5BC1F55737E00C15467 /* JsonParserArrayValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E5A91F55737E00C15467 /* JsonParserArrayValue.m */; };
-		8630E5BD1F55737E00C15467 /* JsonParserDicValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E5AB1F55737E00C15467 /* JsonParserDicValue.m */; };
-		8630E5BE1F55737E00C15467 /* JsonParserNumberValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E5AD1F55737E00C15467 /* JsonParserNumberValue.m */; };
-		8630E5BF1F55737E00C15467 /* JsonParserStringBooleanBoolValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E5AF1F55737E00C15467 /* JsonParserStringBooleanBoolValue.m */; };
-		8630E5C01F55737E00C15467 /* JsonParserStringIntergeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E5B11F55737E00C15467 /* JsonParserStringIntergeValue.m */; };
-		8630E5C11F55737E00C15467 /* JsonParserStringNumberBoolValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E5B31F55737E00C15467 /* JsonParserStringNumberBoolValue.m */; };
-		8630E5C21F55737E00C15467 /* JsonParserStringValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E5B51F55737E00C15467 /* JsonParserStringValue.m */; };
-		8630E5C31F55737E00C15467 /* JsonParserValueProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630E5B71F55737E00C15467 /* JsonParserValueProcess.m */; };
+		866CC64C1FB318C500F8238D /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CC6341FB318B000F8238D /* JsonParser.m */; };
+		866CC64D1FB318C500F8238D /* JsonParserFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CC6361FB318B000F8238D /* JsonParserFormat.m */; };
+		866CC64E1FB318C500F8238D /* JsonParseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CC6381FB318B000F8238D /* JsonParseTool.m */; };
+		866CC64F1FB318C500F8238D /* JsonParserArrayValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CC63C1FB318B000F8238D /* JsonParserArrayValue.m */; };
+		866CC6501FB318C500F8238D /* JsonParserDicValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CC63E1FB318B000F8238D /* JsonParserDicValue.m */; };
+		866CC6511FB318C500F8238D /* JsonParserNumberValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CC6401FB318B000F8238D /* JsonParserNumberValue.m */; };
+		866CC6521FB318C500F8238D /* JsonParserStringBooleanBoolValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CC6421FB318B000F8238D /* JsonParserStringBooleanBoolValue.m */; };
+		866CC6531FB318C500F8238D /* JsonParserStringIntergeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CC6441FB318B000F8238D /* JsonParserStringIntergeValue.m */; };
+		866CC6541FB318C500F8238D /* JsonParserStringNumberBoolValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CC6461FB318B000F8238D /* JsonParserStringNumberBoolValue.m */; };
+		866CC6551FB318C500F8238D /* JsonParserStringValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CC6481FB318B000F8238D /* JsonParserStringValue.m */; };
+		866CC6561FB318C500F8238D /* JsonParserValueProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 866CC64A1FB318B000F8238D /* JsonParserValueProcess.m */; };
 		8670E38D1F45B3B900BC4A8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8670E38C1F45B3B900BC4A8F /* main.m */; };
 		8670E3901F45B3B900BC4A8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8670E38F1F45B3B900BC4A8F /* AppDelegate.m */; };
 		8670E3931F45B3B900BC4A8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8670E3921F45B3B900BC4A8F /* ViewController.m */; };
@@ -50,30 +50,30 @@
 		532490DF7A466057B75B6AD5 /* libPods-Json.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Json.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8630E59B1F556D5C00C15467 /* JsonParserDemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JsonParserDemoModel.h; path = Json/JsonParserDemoModel.h; sourceTree = SOURCE_ROOT; };
 		8630E59C1F556D5C00C15467 /* JsonParserDemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JsonParserDemoModel.m; path = Json/JsonParserDemoModel.m; sourceTree = SOURCE_ROOT; };
-		8630E5A01F55737E00C15467 /* JsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
-		8630E5A11F55737E00C15467 /* JsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParser.m; sourceTree = "<group>"; };
-		8630E5A21F55737E00C15467 /* JsonParserFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParserFormat.h; sourceTree = "<group>"; };
-		8630E5A31F55737E00C15467 /* JsonParserFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParserFormat.m; sourceTree = "<group>"; };
-		8630E5A41F55737E00C15467 /* JsonParseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParseTool.h; sourceTree = "<group>"; };
-		8630E5A51F55737E00C15467 /* JsonParseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParseTool.m; sourceTree = "<group>"; };
-		8630E5A61F55737E00C15467 /* ParserDataModeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserDataModeProtocol.h; sourceTree = "<group>"; };
-		8630E5A81F55737E00C15467 /* JsonParserArrayValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParserArrayValue.h; sourceTree = "<group>"; };
-		8630E5A91F55737E00C15467 /* JsonParserArrayValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParserArrayValue.m; sourceTree = "<group>"; };
-		8630E5AA1F55737E00C15467 /* JsonParserDicValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParserDicValue.h; sourceTree = "<group>"; };
-		8630E5AB1F55737E00C15467 /* JsonParserDicValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParserDicValue.m; sourceTree = "<group>"; };
-		8630E5AC1F55737E00C15467 /* JsonParserNumberValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParserNumberValue.h; sourceTree = "<group>"; };
-		8630E5AD1F55737E00C15467 /* JsonParserNumberValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParserNumberValue.m; sourceTree = "<group>"; };
-		8630E5AE1F55737E00C15467 /* JsonParserStringBooleanBoolValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParserStringBooleanBoolValue.h; sourceTree = "<group>"; };
-		8630E5AF1F55737E00C15467 /* JsonParserStringBooleanBoolValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParserStringBooleanBoolValue.m; sourceTree = "<group>"; };
-		8630E5B01F55737E00C15467 /* JsonParserStringIntergeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParserStringIntergeValue.h; sourceTree = "<group>"; };
-		8630E5B11F55737E00C15467 /* JsonParserStringIntergeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParserStringIntergeValue.m; sourceTree = "<group>"; };
-		8630E5B21F55737E00C15467 /* JsonParserStringNumberBoolValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParserStringNumberBoolValue.h; sourceTree = "<group>"; };
-		8630E5B31F55737E00C15467 /* JsonParserStringNumberBoolValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParserStringNumberBoolValue.m; sourceTree = "<group>"; };
-		8630E5B41F55737E00C15467 /* JsonParserStringValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParserStringValue.h; sourceTree = "<group>"; };
-		8630E5B51F55737E00C15467 /* JsonParserStringValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParserStringValue.m; sourceTree = "<group>"; };
-		8630E5B61F55737E00C15467 /* JsonParserValueProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParserValueProcess.h; sourceTree = "<group>"; };
-		8630E5B71F55737E00C15467 /* JsonParserValueProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParserValueProcess.m; sourceTree = "<group>"; };
-		8630E5B81F55737E00C15467 /* JsonParserValueProcessProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParserValueProcessProtocol.h; sourceTree = "<group>"; };
+		866CC6331FB318B000F8238D /* JsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
+		866CC6341FB318B000F8238D /* JsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParser.m; sourceTree = "<group>"; };
+		866CC6351FB318B000F8238D /* JsonParserFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParserFormat.h; sourceTree = "<group>"; };
+		866CC6361FB318B000F8238D /* JsonParserFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParserFormat.m; sourceTree = "<group>"; };
+		866CC6371FB318B000F8238D /* JsonParseTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParseTool.h; sourceTree = "<group>"; };
+		866CC6381FB318B000F8238D /* JsonParseTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParseTool.m; sourceTree = "<group>"; };
+		866CC6391FB318B000F8238D /* ParserDataModeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParserDataModeProtocol.h; sourceTree = "<group>"; };
+		866CC63B1FB318B000F8238D /* JsonParserArrayValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParserArrayValue.h; sourceTree = "<group>"; };
+		866CC63C1FB318B000F8238D /* JsonParserArrayValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParserArrayValue.m; sourceTree = "<group>"; };
+		866CC63D1FB318B000F8238D /* JsonParserDicValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParserDicValue.h; sourceTree = "<group>"; };
+		866CC63E1FB318B000F8238D /* JsonParserDicValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParserDicValue.m; sourceTree = "<group>"; };
+		866CC63F1FB318B000F8238D /* JsonParserNumberValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParserNumberValue.h; sourceTree = "<group>"; };
+		866CC6401FB318B000F8238D /* JsonParserNumberValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParserNumberValue.m; sourceTree = "<group>"; };
+		866CC6411FB318B000F8238D /* JsonParserStringBooleanBoolValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParserStringBooleanBoolValue.h; sourceTree = "<group>"; };
+		866CC6421FB318B000F8238D /* JsonParserStringBooleanBoolValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParserStringBooleanBoolValue.m; sourceTree = "<group>"; };
+		866CC6431FB318B000F8238D /* JsonParserStringIntergeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParserStringIntergeValue.h; sourceTree = "<group>"; };
+		866CC6441FB318B000F8238D /* JsonParserStringIntergeValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParserStringIntergeValue.m; sourceTree = "<group>"; };
+		866CC6451FB318B000F8238D /* JsonParserStringNumberBoolValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParserStringNumberBoolValue.h; sourceTree = "<group>"; };
+		866CC6461FB318B000F8238D /* JsonParserStringNumberBoolValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParserStringNumberBoolValue.m; sourceTree = "<group>"; };
+		866CC6471FB318B000F8238D /* JsonParserStringValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParserStringValue.h; sourceTree = "<group>"; };
+		866CC6481FB318B000F8238D /* JsonParserStringValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParserStringValue.m; sourceTree = "<group>"; };
+		866CC6491FB318B000F8238D /* JsonParserValueProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParserValueProcess.h; sourceTree = "<group>"; };
+		866CC64A1FB318B000F8238D /* JsonParserValueProcess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParserValueProcess.m; sourceTree = "<group>"; };
+		866CC64B1FB318B000F8238D /* JsonParserValueProcessProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParserValueProcessProtocol.h; sourceTree = "<group>"; };
 		8670E3881F45B3B900BC4A8F /* Json.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Json.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8670E38C1F45B3B900BC4A8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8670E38E1F45B3B900BC4A8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,51 +130,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8630E59E1F556D6200C15467 /* Demo */ = {
+		866CC6311FB3188D00F8238D /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				8630E59B1F556D5C00C15467 /* JsonParserDemoModel.h */,
 				8630E59C1F556D5C00C15467 /* JsonParserDemoModel.m */,
 			);
 			name = Demo;
-			path = JsonParse;
 			sourceTree = "<group>";
 		};
-		8630E59F1F55737E00C15467 /* JsonParser */ = {
+		866CC6321FB318B000F8238D /* JsonParser */ = {
 			isa = PBXGroup;
 			children = (
-				8630E5A71F55737E00C15467 /* ValueProcess */,
-				8630E5A01F55737E00C15467 /* JsonParser.h */,
-				8630E5A11F55737E00C15467 /* JsonParser.m */,
-				8630E5A21F55737E00C15467 /* JsonParserFormat.h */,
-				8630E5A31F55737E00C15467 /* JsonParserFormat.m */,
-				8630E5A41F55737E00C15467 /* JsonParseTool.h */,
-				8630E5A51F55737E00C15467 /* JsonParseTool.m */,
-				8630E5A61F55737E00C15467 /* ParserDataModeProtocol.h */,
+				866CC6331FB318B000F8238D /* JsonParser.h */,
+				866CC6341FB318B000F8238D /* JsonParser.m */,
+				866CC6351FB318B000F8238D /* JsonParserFormat.h */,
+				866CC6361FB318B000F8238D /* JsonParserFormat.m */,
+				866CC6371FB318B000F8238D /* JsonParseTool.h */,
+				866CC6381FB318B000F8238D /* JsonParseTool.m */,
+				866CC6391FB318B000F8238D /* ParserDataModeProtocol.h */,
+				866CC63A1FB318B000F8238D /* ValueProcess */,
 			);
-			path = JsonParser;
+			name = JsonParser;
+			path = ../../JsonParser;
 			sourceTree = "<group>";
 		};
-		8630E5A71F55737E00C15467 /* ValueProcess */ = {
+		866CC63A1FB318B000F8238D /* ValueProcess */ = {
 			isa = PBXGroup;
 			children = (
-				8630E5A81F55737E00C15467 /* JsonParserArrayValue.h */,
-				8630E5A91F55737E00C15467 /* JsonParserArrayValue.m */,
-				8630E5AA1F55737E00C15467 /* JsonParserDicValue.h */,
-				8630E5AB1F55737E00C15467 /* JsonParserDicValue.m */,
-				8630E5AC1F55737E00C15467 /* JsonParserNumberValue.h */,
-				8630E5AD1F55737E00C15467 /* JsonParserNumberValue.m */,
-				8630E5AE1F55737E00C15467 /* JsonParserStringBooleanBoolValue.h */,
-				8630E5AF1F55737E00C15467 /* JsonParserStringBooleanBoolValue.m */,
-				8630E5B01F55737E00C15467 /* JsonParserStringIntergeValue.h */,
-				8630E5B11F55737E00C15467 /* JsonParserStringIntergeValue.m */,
-				8630E5B21F55737E00C15467 /* JsonParserStringNumberBoolValue.h */,
-				8630E5B31F55737E00C15467 /* JsonParserStringNumberBoolValue.m */,
-				8630E5B41F55737E00C15467 /* JsonParserStringValue.h */,
-				8630E5B51F55737E00C15467 /* JsonParserStringValue.m */,
-				8630E5B61F55737E00C15467 /* JsonParserValueProcess.h */,
-				8630E5B71F55737E00C15467 /* JsonParserValueProcess.m */,
-				8630E5B81F55737E00C15467 /* JsonParserValueProcessProtocol.h */,
+				866CC63B1FB318B000F8238D /* JsonParserArrayValue.h */,
+				866CC63C1FB318B000F8238D /* JsonParserArrayValue.m */,
+				866CC63D1FB318B000F8238D /* JsonParserDicValue.h */,
+				866CC63E1FB318B000F8238D /* JsonParserDicValue.m */,
+				866CC63F1FB318B000F8238D /* JsonParserNumberValue.h */,
+				866CC6401FB318B000F8238D /* JsonParserNumberValue.m */,
+				866CC6411FB318B000F8238D /* JsonParserStringBooleanBoolValue.h */,
+				866CC6421FB318B000F8238D /* JsonParserStringBooleanBoolValue.m */,
+				866CC6431FB318B000F8238D /* JsonParserStringIntergeValue.h */,
+				866CC6441FB318B000F8238D /* JsonParserStringIntergeValue.m */,
+				866CC6451FB318B000F8238D /* JsonParserStringNumberBoolValue.h */,
+				866CC6461FB318B000F8238D /* JsonParserStringNumberBoolValue.m */,
+				866CC6471FB318B000F8238D /* JsonParserStringValue.h */,
+				866CC6481FB318B000F8238D /* JsonParserStringValue.m */,
+				866CC6491FB318B000F8238D /* JsonParserValueProcess.h */,
+				866CC64A1FB318B000F8238D /* JsonParserValueProcess.m */,
+				866CC64B1FB318B000F8238D /* JsonParserValueProcessProtocol.h */,
 			);
 			path = ValueProcess;
 			sourceTree = "<group>";
@@ -204,8 +204,8 @@
 		8670E38A1F45B3B900BC4A8F /* Json */ = {
 			isa = PBXGroup;
 			children = (
-				8630E59F1F55737E00C15467 /* JsonParser */,
-				8630E59E1F556D6200C15467 /* Demo */,
+				866CC6321FB318B000F8238D /* JsonParser */,
+				866CC6311FB3188D00F8238D /* Demo */,
 				8670E38E1F45B3B900BC4A8F /* AppDelegate.h */,
 				8670E38F1F45B3B900BC4A8F /* AppDelegate.m */,
 				8670E3911F45B3B900BC4A8F /* ViewController.h */,
@@ -317,7 +317,7 @@
 		8670E3801F45B3B900BC4A8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "flamegrace@hotmail.com";
 				TargetAttributes = {
 					8670E3871F45B3B900BC4A8F = {
@@ -391,21 +391,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866CC64C1FB318C500F8238D /* JsonParser.m in Sources */,
+				866CC64D1FB318C500F8238D /* JsonParserFormat.m in Sources */,
+				866CC64E1FB318C500F8238D /* JsonParseTool.m in Sources */,
+				866CC64F1FB318C500F8238D /* JsonParserArrayValue.m in Sources */,
+				866CC6501FB318C500F8238D /* JsonParserDicValue.m in Sources */,
+				866CC6511FB318C500F8238D /* JsonParserNumberValue.m in Sources */,
+				866CC6521FB318C500F8238D /* JsonParserStringBooleanBoolValue.m in Sources */,
+				866CC6531FB318C500F8238D /* JsonParserStringIntergeValue.m in Sources */,
+				866CC6541FB318C500F8238D /* JsonParserStringNumberBoolValue.m in Sources */,
+				866CC6551FB318C500F8238D /* JsonParserStringValue.m in Sources */,
+				866CC6561FB318C500F8238D /* JsonParserValueProcess.m in Sources */,
 				8670E3931F45B3B900BC4A8F /* ViewController.m in Sources */,
-				8630E5C31F55737E00C15467 /* JsonParserValueProcess.m in Sources */,
-				8630E5BD1F55737E00C15467 /* JsonParserDicValue.m in Sources */,
-				8630E5BB1F55737E00C15467 /* JsonParseTool.m in Sources */,
-				8630E5BE1F55737E00C15467 /* JsonParserNumberValue.m in Sources */,
 				8670E3901F45B3B900BC4A8F /* AppDelegate.m in Sources */,
-				8630E5B91F55737E00C15467 /* JsonParser.m in Sources */,
-				8630E5C01F55737E00C15467 /* JsonParserStringIntergeValue.m in Sources */,
-				8630E5BC1F55737E00C15467 /* JsonParserArrayValue.m in Sources */,
-				8630E5BF1F55737E00C15467 /* JsonParserStringBooleanBoolValue.m in Sources */,
-				8630E5BA1F55737E00C15467 /* JsonParserFormat.m in Sources */,
 				8670E38D1F45B3B900BC4A8F /* main.m in Sources */,
-				8630E5C11F55737E00C15467 /* JsonParserStringNumberBoolValue.m in Sources */,
 				8630E59D1F556D5C00C15467 /* JsonParserDemoModel.m in Sources */,
-				8630E5C21F55737E00C15467 /* JsonParserStringValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +470,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -478,7 +480,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -501,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -518,7 +524,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -526,7 +534,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -543,7 +555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
