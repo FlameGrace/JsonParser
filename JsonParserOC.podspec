@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name         = "JsonParser"
+  s.name         = "JsonParserOC"
   s.version      = "0.0.1"
   s.summary      = "A json parser tool for iOS."
   s.homepage     = "https://github.com/FlameGrace/JsonParser"
