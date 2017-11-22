@@ -24,7 +24,7 @@
     }
     else if(dValue && [dValue isEqualToString:@"true"])
     {
-        boolean = NO;
+        boolean = YES;
     }
     else
     {
